@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.box{
+    background-color: rgba(0, 153, 255, 0.521);
+    height: 100%;
+    padding-bottom:50%;
+}
+
+.title{
+    margin-bottom:1%;
+    text-align: center;
+    font-size:35px;
+    font-family:Poppins;
+}
+
+.inpBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom:5%;
+}
+
+.inpBtn > input{
+    height: 30px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+
+.inpBtn > button{
+    margin-left:10px;
+    background-color: #2810ff;
+    border:none;
+    color:#fff;
+    border-radius: 5px;
+}
